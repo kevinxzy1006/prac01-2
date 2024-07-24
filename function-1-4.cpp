@@ -1,9 +1,12 @@
-#include <iostream>
-
 int sum_two_arrays(int array[], int secondarray[], int n) {
-    int sumarray[] = {}; //set up an empty array to store the sum
-    for(int i = 0; i < n; i++) {
-        sumarray[i] = array[i] + secondarray[i];
+    if (n < 1) {
+        return 0;
     }
-    return sumarray[n];
+
+    int sum = 0;
+    for (int i = 0; i < n; ++i) {
+        sum += array[i] + secondarray[i];
+    }
+    
+    return sum;
 }
