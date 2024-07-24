@@ -1,21 +1,21 @@
-#include <iostream>
-
-using namespace std;
-
 void two_five_nine(int array[], int n) {
-    //Use uppercase letters to represent the times of appearance of 2, 5 and 9
-    int T = 0;
-    int F = 0;
-    int N = 0;
-    for(int i = 0; i < n; i++) {
-        if(array[i] == 2) {
-            T++;
-        } else if(array[i == 5]) {
-            F++;
-        } else if(array[i == 9]) {
-            N++;
+    int num_twos = 0;
+    int num_fives = 0;
+    int num_nines = 0;
+
+    for (int i = 0; i < n; ++i) {
+        switch (array[i]) {
+            case 2:
+                ++num_twos;
+                break;
+            case 5:
+                ++num_fives;
+                break;
+            case 9:
+                ++num_nines;
+                break;
         }
     }
-    //output result
-    cout << "2:" << T << ";" << "5:" << F << ";" << "9:" << N << ";" << endl;
+
+    std::cout << "2:" << num_twos << ";5:" << num_fives << ";9:" << num_nines << ";" << std::endl;
 }
