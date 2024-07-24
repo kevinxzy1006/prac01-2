@@ -1,16 +1,27 @@
+#include <iostream>
+using namespace std;
+
 void print_pass_fail(char grade) {
     switch (grade) {
         case 'A':
+            cout << "Pass" << endl;
+            break;
         case 'B':
+            cout << 'Pass' << endl;
+            break;
         case 'C':
-            std::cout << "Pass\n";
+            cout << "Pass" << endl;
             break;
         case 'D':
-        case 'E':
-            std::cout << "Fail\n";
+            cout << 'Fail' << endl;
             break;
-        default:
-            std::cout << "Nothing\n";
+        case 'E':
+            cout << 'Fail' << endl;
             break;
     }
+}
+
+int main() {
+    char grade = 'E';
+    print_pass_fail(grade);
 }
