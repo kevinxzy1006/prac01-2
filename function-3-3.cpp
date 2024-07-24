@@ -1,3 +1,6 @@
+#include <iostream>
+#include <unordered_map>
+
 double weighted_average(int array[], int n) {
     if (n < 1) {
         return 0;
