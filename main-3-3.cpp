@@ -7,7 +7,7 @@ int main() {
     int n = sizeof(array) / sizeof(array[0]);
 
     double result = weighted_average(array, n);
-    std::cout << "Weighted Average: " << result << std::endl;
+    std::cout << "Weighted average: " << result << std::endl;
 
     return 0;
 }
