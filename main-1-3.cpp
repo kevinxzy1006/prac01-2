@@ -1,5 +1,5 @@
 #include <iostream>
-#include "function-1-3.cpp"
+extern int num_count(int array[], int n, int number);
 
 using namespace std;
 
