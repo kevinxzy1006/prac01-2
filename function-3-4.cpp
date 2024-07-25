@@ -20,8 +20,3 @@ void print_pass_fail(char grade) {
             break;
     }
 }
-
-int main() {
-    char grade = 'E';
-    print_pass_fail(grade);
-}
