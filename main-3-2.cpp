@@ -1,6 +1,6 @@
 #include <iostream>
 #include <algorithm> // for std::sort
-#include "function-3-2.cpp"
+extern int median_array(int array[], int n);
 
 using namespace std;
 
