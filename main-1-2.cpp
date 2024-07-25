@@ -1,5 +1,5 @@
 #include <iostream>
-#include "function-1-2.cpp"
+extern int array_mean(int array[], int n);
 
 using namespace std;
 
