@@ -7,16 +7,16 @@ void print_pass_fail(char grade) {
             cout << "Pass" << endl;
             break;
         case 'B':
-            cout << 'Pass' << endl;
+            cout << "Pass" << endl;
             break;
         case 'C':
             cout << "Pass" << endl;
             break;
         case 'D':
-            cout << 'Fail' << endl;
+            cout << "Fail" << endl;
             break;
         case 'E':
-            cout << 'Fail' << endl;
+            cout << "Fail" << endl;
             break;
     }
 }
